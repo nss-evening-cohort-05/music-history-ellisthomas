@@ -14,7 +14,7 @@ for (var i = 0; i < songs.length; i++) {
 	songs[i] = songs[i].replace("@", "");
 	songs[i] = songs[i].replace("(", "");
 	songs[i] = songs[i].replace("!", "");
+
+	document.getElementById("tracks").innerHTML = songs[i];
 }
 
-var songs = document.getElementById("tracks");
-console.log(songs);
