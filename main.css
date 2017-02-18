@@ -9,8 +9,8 @@ body {
 nav {
   background-color: #FFB4B0;
   border: 2px solid black;
-  margin: 2% 10% 1%;
-  width: 55%;
+  margin: 1%;
+  width: 98%;
 }
 
 nav ul {
@@ -30,12 +30,25 @@ nav li {
 *********************/
 
 .control-panel {
-  width: 10%;
-  background-color: #4DD7FA;
+  width: 33%;
+	background-color: #4DD7FA;
   border: 2px solid black;
+  margin: 1%;
   padding: 1%;
-  margin-left: 10%;
-  margin-right: 15px;
+}
+div.genres {
+  margin-top: 10px;
+}
+
+div.checkboxes {
+  display: table-cell;
+  vertical-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 67px;
+  height: 18px;
+  margin-top: 50px;
+
 }
 
 div.genres {
@@ -60,12 +73,12 @@ div.checkboxes {
 *********************/
 
 .music-panel {
-  width: 39.5%;
+  width: 63%;
   height: 360px;
   background-color: #FEFAC0;
   border: 2px solid black;
+  margin: 1%;
   padding: 1%;
-  margin-right: 10%;
   overflow-y: auto;
 }  
 
@@ -103,20 +116,3 @@ button {
 .container {
 	display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
