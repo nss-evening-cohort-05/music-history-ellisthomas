@@ -1,13 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="main.css">
   <title>Music History</title>
 </head>
 
 <body>
 
+<!-- Top nav bar -->
+	<nav>
+		<ul>
+			<li><a href="#">View music</a></li>
+			<li>|</li>
+			<li><a href="#">Add Music</a></li>
+			<li>|</li>
+			<li><a href="#">Profile</a></li>
+		</ul>
+	</nav>		
+
+
+<!-- Left side controls panel & right panel-->
+
+      <div class="container">
+        <div class="control-panel">
+          <div class="slider">
+            <label for="time-slider">Song length:</label><br>
+            <input type="range" id="time-slider" min="10" max="100" step="1">
+          </div>
+          <div class="artist-dropdown">
+            <label for="artist">Artist:</label><br>
+            <select name="artist">
+              <option value="" disabled selected>Options</option>
+              <option value="jackson">Michael Jackson</option>
+              <option value="fire">Earth Wind & Fire</option>
+              <option value="timberlake">Justin Timberlake</option>
+              <option value="beyonce">Beyonce</option>
+              <option value="west">Kanye West</option>
+            </select>
+          </div><br>
+          <div class="album-dropdown">
+            <label for="album">Album:</label><br>
+            <select name="album">
+              <option value="" disabled selected>Options</option>
+              <option value="thriller">Thiller</option>
+              <option value="groove">Let's Groove</option>
+              <option value="love">My Love</option>
+              <option value="crazy">Crazy in Love</option>
+              <option value="heartless">Hearless</option>
+            </select>
+          </div><br>
+          <legend class="legend">Genre:</legend><br>
+          <div class="genres">
+            <div class="checkboxes">
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="rock">Rock</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="pop">Pop</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="blues">Blues</label>
+              </div>
+            </div>
+            <div class="checkboxes">
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="classical">Classical</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="jazz">Jazz</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="hip_hop">Hip hop</label>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <button type="submit">Filter</button>
+            </div>
+        </div>
+       <div class="music-panel">
+          <div class="song-name">Song Name</div>
+            <ul class="tracks">
+                <li>Artist name  |</li>
+                <li>Album name  |</li>
+                <li>Genre</li>
+              </ul>
+          <div class="song-name">Song Name</div>
+            <ul class="tracks">
+                <li>Artist name  |</li>
+                <li>Album name  |</li>
+                <li>Genre</li>
+              </ul>
+          <div class="song-name">Song Name</div>
+            <ul class="tracks">
+                <li>Artist name  |</li>
+                <li>Album name  |</li>
+                <li>Genre</li>
+              </ul>
+          <div class="song-name">Song Name</div>
+            <ul class="tracks">
+              <li>Artist name |</li>
+              <li>Album name |</li>
+              <li>Genre</li>
+            </ul>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>

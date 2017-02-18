@@ -1,3 +1,120 @@
 body {
-	
+	background-color: #fff;
 }
+/********************
+    Nav Pannel 
+*********************/
+
+
+nav {
+  background-color: #FFB4B0;
+  border: 2px solid black;
+  margin: 1%;
+  width: 98%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+
+
+
+/********************
+    Contol Panel 
+*********************/
+
+.control-panel {
+  width: 33%;
+  background-color: #4DD7FA;
+  border: 2px solid black;
+  margin: 1%;
+  padding: 1%;
+}
+div.genres {
+  margin-top: 10px;
+}
+
+div.checkboxes {
+  display: table-cell;
+  vertical-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 67px;
+  height: 18px;
+  margin-top: 50px;
+
+}
+
+
+
+/********************
+    Music Panel 
+*********************/
+
+.music-panel {
+  width: 63%;
+  height: 360px;
+  background-color: #FEFAC0;
+  border: 2px solid black;
+  margin: 1%;
+  padding: 1%;
+  overflow-y: auto;
+}  
+
+.song-name {
+  font-size: 23px;
+}
+
+li {
+  display: inline-flex;
+  list-style-type: none;
+  /*justify-content: center; */
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+/********************
+    Filter Button 
+*********************/
+
+button {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  width: 120px;
+  height: 25px;
+  border: 1px solid #000;
+}
+
+
+
+/********************
+    Flexbox 
+*********************/
+
+.container {
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
