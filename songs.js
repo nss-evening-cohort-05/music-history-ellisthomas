@@ -15,6 +15,13 @@ for (var i = 0; i < songs.length; i++) {
 	songs[i] = songs[i].replace("(", "");
 	songs[i] = songs[i].replace("!", "");
 
-	document.getElementById("tracks").innerHTML += songs[i] + "<br>";
+	var currentSong = songs[i].split("- by");
+
+	var end = currentSong[1].split("on the album");
+	currentSong.splice(-1, 1);
+	currentSong.push(end[0]);
+	currentSong.push(end[1]);
+
+	document.getElementById("tracks").innerHTML += '<div class="song-name">' +currentSong[0] + '</div><ul><li>' + currentSong[1] +'</li><li>' + currentSong[2] + '</li></ul><br>';
 }
 
