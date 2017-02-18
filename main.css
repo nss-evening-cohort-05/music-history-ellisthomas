@@ -31,7 +31,7 @@ nav li {
 
 .control-panel {
   width: 33%;
-  background-color: #4DD7FA;
+	background-color: #4DD7FA;
   border: 2px solid black;
   margin: 1%;
   padding: 1%;
@@ -48,6 +48,21 @@ div.checkboxes {
   width: 67px;
   height: 18px;
   margin-top: 50px;
+
+}
+
+div.genres {
+   margin-top: 10px;
+ }
+
+div.checkboxes {
+  display: table-cell;
+  vertical-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 67px;
+  height: 18px;
+  margin-top: 50px
 
 }
 
@@ -101,20 +116,3 @@ button {
 .container {
 	display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
