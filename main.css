@@ -116,3 +116,9 @@ button {
 .container {
 	display: flex;
 }
+
+input {
+  flex-direction: column;
+}
+
+
