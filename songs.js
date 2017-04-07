@@ -25,3 +25,24 @@ for (var i = 0; i < songs.length; i++) {
 	document.getElementById("tracks").innerHTML += '<div class="song-name">' +currentSong[0] + '</div><ul><li>' + currentSong[1] +'</li><li>' + currentSong[2] + '</li></ul><br>';
 }
 
+function printDom(xhrData) {
+	for (var i = 0; i < xhrData.songs.length; i++) {
+		xhrData.songs[i]
+	}
+}
+
+
+
+
+
+function executeOnLoad() {
+	var data = JSON.parse(this.responseText);
+	printDom(data);
+
+}
+
+var myRequest = new XMLhttpRequest();
+myRequest.addEventListener("load", executeOnLoad);
+myRequest.addEventListener("error", executeOnFail);
+myRequest.open("GET", "songs.json");
+myRequest.send();
