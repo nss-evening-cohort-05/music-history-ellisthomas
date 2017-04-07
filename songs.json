@@ -2,24 +2,24 @@
 	"songs":
 	[
 		{
-			"song": "",
-			"artist": "",
-			"album": ""
+			"song": "Welcome to the Jungle",
+			"artist": "Guns & Roses",
+			"album": "Appetite for Destruction"
 		},
 		{
-			"song": "",
-			"artist": "",
-			"album": ""	
+			"song": "Ironic",
+			"artist": "Alanis Morisette",
+			"album": "Jagged Little Pill"	
 		},
 		{
-			"song": "",
-			"artist": "",
-			"album": ""
+			"song": "Thriller",
+			"artist": "Michael Jackson",
+			"album": "Thriller"
 		},
 		{
-			"song": "",
-			"artist": "",
-			"album": ""
+			"song": "Let's Groove",
+			"artist": "Earth Wind & Fire",
+			"album": "Rise"
 		}
 	]
 }
